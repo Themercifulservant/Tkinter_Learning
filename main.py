@@ -72,7 +72,7 @@ class MHRS( Frame ):
         tk.Frame.__init__(self)
         self.pack()
         self.master.title("VIRTUAL ASSISTANT")
-        self.button1 = Button( self, text = "SPEAK", width = 25,command =take_command)
+        self.button1 = Button( self, text = "SPEAK", width = 25,command = run_alexa)
         self.button1.grid( row = 0, column = 1, columnspan = 2, sticky = W+E+N+S )
     # def new_window(self):
     #     self.newWindow = karl2()
@@ -81,7 +81,7 @@ class MHRS( Frame ):
 #         new =tk.Frame.__init__(self)
 #         new = Toplevel(self)
 #         new.title("karlos More Window")
-        self.button2 = tk.Button(self, text = "PRESS TO CLOSE", width = 25,command=)
+        self.button2 = tk.Button(self, text = "PRESS TO CLOSE", width = 25 )
         self.button2.grid( row = 1, column = 1, columnspan = 3, sticky = W+E+N+S )
 
     # def close_window(self):
